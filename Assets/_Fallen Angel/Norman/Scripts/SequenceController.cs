@@ -27,6 +27,7 @@ public class SequenceController : MonoBehaviour
     public void ConfirmAnswer()
     {
         Sequence[0].CharacterAnswer();
+        //Sequence.RemoveAt(0);
         CanConfirm = false;
     }
 

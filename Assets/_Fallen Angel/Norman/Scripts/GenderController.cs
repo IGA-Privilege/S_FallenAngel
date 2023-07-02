@@ -39,10 +39,6 @@ public class GenderController : MonoBehaviour
             instance = this;
         }
     }
-
-
-
-
     public void TransitionGender()
     {
         s_GenderType = (s_GenderType == GenderType.Female ? GenderType.Male : GenderType.Female);
